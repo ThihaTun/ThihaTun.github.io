@@ -11,9 +11,10 @@ body {
   font-family: 'Open sans', sans-serif;
   font-weight: 300;
 }
-.container image {
+.container img {
   align-items: center;
-
+align-self:center;
+align-content: center;
 }
 .navbar a,
 .sec-about p,
@@ -139,8 +140,10 @@ hr {
 .sec-main {
   position: relative;
   height: 560px;
-  background: url(https://drive.google.com/uc?export=download&amp;id=1-9H8SBPK-xLEKx3QFOe2VbuRVI4pHHwG) no-repeat center center;
-  background-size: cover;
+  /*background-image: url(./images/bg.png) no-repeat center center;*/
+  /*background: url(images/bg.png) no-repeat center center;*/
+  background: url(../images/bg1.jpg) no-repeat center center;
+  background-size: auto;
 }
 .sec-main:after {
   content: "";
